@@ -20,5 +20,7 @@ let g:LanguageClient_serverCommands = {
 
 let g:LanguageClient_autoStart = 1
 
+" Rust language support.
+let g:rustfmt_autosave = 1
 " Show line numbers in all buffers.
 set number
