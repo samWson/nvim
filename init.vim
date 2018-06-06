@@ -8,6 +8,9 @@ call vundle#begin('~/.local/share/nvim/site/pack')
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'autozimu/LanguageClient-neovim'
+" Color schemes.
+Plugin 'hzchirs/vim-material'
+Plugin 'arcticicestudio/nord-vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -22,5 +25,10 @@ let g:LanguageClient_autoStart = 1
 
 " Rust language support.
 let g:rustfmt_autosave = 1
+" Colors and fonts.
+colorscheme nord
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+
 " Show line numbers in all buffers.
 set number
