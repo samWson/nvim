@@ -8,6 +8,8 @@ call vundle#begin('~/.local/share/nvim/site/pack')
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'autozimu/LanguageClient-neovim'
+Plugin 'ngmy/vim-rubocop'
+
 " Color schemes.
 Plugin 'hzchirs/vim-material'
 Plugin 'arcticicestudio/nord-vim'
