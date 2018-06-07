@@ -36,6 +36,8 @@ set expandtab
 " Mappings.
 let mapleader = "\<Space>"
 nnoremap ; :
+map <leader>t :tabnew"\<Enter>"
+map <leader>f :FZF
 
 " Colors and fonts.
 colorscheme nord
