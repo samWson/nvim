@@ -30,6 +30,11 @@ let g:rustfmt_autosave = 1
 
 let softtabstop = 2
 let shiftwidth = 2
+set expandtab
+
+" Mappings.
+let mapleader = "\<Space>"
+nnoremap ; :
 
 " Colors and fonts.
 colorscheme nord
