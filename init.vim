@@ -40,8 +40,24 @@ set expandtab
 " Mappings.
 let mapleader = "\<Space>"
 nnoremap ; :
-map <leader>t :tabnew"\<Enter>"
-map <leader>f :FZF
+nnoremap <leader>t :tabnew"\<Enter>"
+nnoremap <leader>f :FZF
+" Move line at cursor down to the next line.
+nnoremap <leader>- ddp 
+" Move line at cursor up to the previous line.
+nnoremap <leader>_ ddkP
+" Convert word under cursor to uppercase while in insert mode.
+inoremap <c-u> <esc>viwUe
+" Convert word under cursor to uppercase while in normal mode.
+nnoremap <leader><c-u> viwUe
+" Open Vim configuration file in a vsplit.
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+" Evaluate Vim configuration file.
+nnoremap <leader>sv :source $MYVIMRC<cr>
+" Surround word with double quotes.
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+" Surround word with single quotes.
+nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 
 " Colors and fonts.
 colorscheme nord
