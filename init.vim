@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'autozimu/LanguageClient-neovim'
 Plugin 'ngmy/vim-rubocop'
 Plugin 'vim-airline/vim-airline'
+Plugin 'fatih/vim-go'
 
 " Color schemes.
 Plugin 'hzchirs/vim-material'
