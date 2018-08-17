@@ -17,6 +17,9 @@ Plugin 'hzchirs/vim-material'
 Plugin 'arcticicestudio/nord-vim'
 
 call vundle#end()
+
+set nocp
+filetype plugin on
 filetype plugin indent on
 
 " LanguageClient config.
