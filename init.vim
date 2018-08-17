@@ -66,3 +66,5 @@ let g:nord_italic_comments = 1
 
 " Show line numbers in all buffers.
 set number
+
+echom 'Neo cat says hi! >^.^<'
