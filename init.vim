@@ -29,8 +29,8 @@ let g:LanguageClient_autoStart = 1
 " Rust language support.
 let g:rustfmt_autosave = 1
 
-let softtabstop = 2
-let shiftwidth = 2
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " Mappings.
