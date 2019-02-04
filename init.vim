@@ -2,6 +2,8 @@
 set rtp+=~/.config/nvim/bundle/Vundle.vim " Vundle package manager. 
 set rtp+=/usr/local/opt/fzf " fzf fuzzy finder.
 
+runtime macros/matchit.vim " Add inproved % command matching.
+
 " All plugins must be between vundle#begin() and vundle#end()
 " The argument here is the directory where Vundle will install packages.
 call vundle#begin('~/.local/share/nvim/site/pack')
@@ -11,6 +13,8 @@ Plugin 'autozimu/LanguageClient-neovim'
 Plugin 'ngmy/vim-rubocop'
 Plugin 'vim-airline/vim-airline'
 Plugin 'fatih/vim-go'
+Plugin 'vim-erlang/vim-erlang-runtime'
+Plugin 'elixir-editors/vim-elixir'
 
 " Color schemes.
 Plugin 'hzchirs/vim-material'
@@ -32,6 +36,8 @@ let g:LanguageClient_autoStart = 1
 
 " Rust language support.
 let g:rustfmt_autosave = 1
+
+let ruby_spellcheck_strings = 1
 
 set tabstop=2
 set shiftwidth=2
@@ -58,6 +64,8 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 " Surround word with single quotes.
 nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
+" Open netrw
+nnoremap <leader>d :Vexplore<Enter>
 
 " Colors and fonts.
 colorscheme nord
@@ -66,5 +74,11 @@ let g:nord_italic_comments = 1
 
 " Show line numbers in all buffers.
 set number
+
+"" Netrw config
+let g:netrw_browse_split = 3
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+let g:netrw_winsize = 20
 
 echom 'Neo cat says hi! >^.^<'
