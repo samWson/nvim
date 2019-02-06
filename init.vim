@@ -2,7 +2,9 @@
 set rtp+=~/.config/nvim/bundle/Vundle.vim " Vundle package manager. 
 set rtp+=/usr/local/opt/fzf " fzf fuzzy finder.
 
-runtime macros/matchit.vim " Add inproved % command matching.
+" '%' jumbs between opening and closing sets of '()', '{}', and '[]'.
+" The built in matchit plugin improves % command matching.
+runtime macros/matchit.vim
 
 " All plugins must be between vundle#begin() and vundle#end()
 " The argument here is the directory where Vundle will install packages.
