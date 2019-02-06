@@ -57,7 +57,7 @@ inoremap <c-u> <esc>viwUe
 " Convert word under cursor to uppercase while in normal mode.
 nnoremap <leader><c-u> viwUe
 " Open Vim configuration file in a vsplit.
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :tabedit $MYVIMRC<cr>
 " Evaluate Vim configuration file.
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " Surround word with double quotes.
