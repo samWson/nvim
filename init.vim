@@ -1,3 +1,5 @@
+set nomodeline " Disable modeline parsing for security.
+
 " Set runtime path.
 set rtp+=~/.config/nvim/bundle/Vundle.vim " Vundle package manager. 
 set rtp+=/usr/local/opt/fzf " fzf fuzzy finder.
