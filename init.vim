@@ -18,6 +18,7 @@ Plugin 'fatih/vim-go'
 Plugin 'vim-erlang/vim-erlang-runtime'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'tpope/vim-commentary'
+Plugin 'rhysd/vim-crystal'
 
 " Color schemes.
 Plugin 'hzchirs/vim-material'
