@@ -72,6 +72,8 @@ nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 " Open netrw
 nnoremap <leader>d :Vexplore<Enter>
+" Turn off search highlighting.
+nnoremap <leader>h :noh<Enter>
 
 " Colors and fonts.
 colorscheme nord
