@@ -4,7 +4,7 @@ set nomodeline " Disable modeline parsing for security.
 set rtp+=~/.config/nvim/bundle/Vundle.vim " Vundle package manager. 
 set rtp+=/usr/local/opt/fzf " fzf fuzzy finder.
 
-" '%' jumbs between opening and closing sets of '()', '{}', and '[]'.
+" '%' jumps between opening and closing sets of '()', '{}', and '[]'.
 " The built in matchit plugin improves % command matching.
 runtime macros/matchit.vim
 
