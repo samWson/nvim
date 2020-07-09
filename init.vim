@@ -22,10 +22,6 @@ Plugin 'elixir-editors/vim-elixir'
 Plugin 'tpope/vim-commentary'
 Plugin 'rhysd/vim-crystal'
 
-" Color schemes.
-Plugin 'hzchirs/vim-material'
-Plugin 'arcticicestudio/nord-vim'
-
 call vundle#end()
 
 set nocp
