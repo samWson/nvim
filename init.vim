@@ -21,7 +21,7 @@ Plugin 'vim-erlang/vim-erlang-runtime'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'tpope/vim-commentary'
 Plugin 'rhysd/vim-crystal'
-Plugin 'tpope/surround'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 
