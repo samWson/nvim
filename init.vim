@@ -21,6 +21,7 @@ Plugin 'vim-erlang/vim-erlang-runtime'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'tpope/vim-commentary'
 Plugin 'rhysd/vim-crystal'
+Plugin 'tpope/surround'
 
 call vundle#end()
 
@@ -70,11 +71,6 @@ nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 nnoremap <leader>d :Vexplore<Enter>
 " Turn off search highlighting.
 nnoremap <leader>h :noh<Enter>
-
-" Colors and fonts.
-colorscheme nord
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
 
 " Show line numbers in all buffers.
 set number
